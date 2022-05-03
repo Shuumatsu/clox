@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "*.tcc": "c",
+        "common.h": "c",
+        "memory.h": "c"
+    }
+}
