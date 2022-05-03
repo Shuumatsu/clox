@@ -12,6 +12,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/akatsuki/workspace/clox/src/debug.c" "CMakeFiles/clox.dir/src/debug.c.o" "gcc" "CMakeFiles/clox.dir/src/debug.c.o.d"
   "/home/akatsuki/workspace/clox/src/main.c" "CMakeFiles/clox.dir/src/main.c.o" "gcc" "CMakeFiles/clox.dir/src/main.c.o.d"
   "/home/akatsuki/workspace/clox/src/memory.c" "CMakeFiles/clox.dir/src/memory.c.o" "gcc" "CMakeFiles/clox.dir/src/memory.c.o.d"
+  "/home/akatsuki/workspace/clox/src/value.c" "CMakeFiles/clox.dir/src/value.c.o" "gcc" "CMakeFiles/clox.dir/src/value.c.o.d"
   )
 
 # Targets to which this target links.
