@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "common.h"
 #include "debug.h"
 
 static int simple_instruction(const char* name, int offset) {
