@@ -10,6 +10,7 @@ add_executable(clox src/main.c
     src/chunk.c src/chunk.h
     src/memory.c src/memory.h
     src/value.c src/value.h
+    src/vm.c src/vm.h
 )
 target_include_directories(clox PUBLIC src)
 set_property(TARGET clox PROPERTY C_STANDARD 17)

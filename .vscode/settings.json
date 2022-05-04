@@ -1,6 +1,9 @@
 {
     "files.associations": {
         "common.h": "c",
-        "memory.h": "c"
-    }
+        "memory.h": "c",
+        "debug.h": "c"
+    },
+    "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
+    "cmake.configureOnOpen": true
 }

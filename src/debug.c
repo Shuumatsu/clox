@@ -15,14 +15,6 @@ static int constant_instruction(const char* name, Chunk* chunk, int offset) {
     return offset + 2;
 }
 
-void disassemble_chunk(Chunk* chunk, const char* name) {
-    printf("== %s ==\n", name);
-
-    for (int offset = 0; offset < chunk->count;) {
-        offset = disassemble_instruction(chunk, offset);
-    }
-}
-
 int disassemble_instruction(Chunk* chunk, int offset) {
     printf("%04d ", offset);
     if (offset > 0 && chunk->lines[offset] == chunk->lines[offset - 1]) {
@@ -37,5 +29,13 @@ int disassemble_instruction(Chunk* chunk, int offset) {
         case OP_CONSTANT:
             return constant_instruction("OP_CONSTANT", chunk, offset);
         default: printf("Unknown opcode %d\n", instruction); return offset + 1;
+    }
+}
+
+void disassemble_chunk(Chunk* chunk, const char* name) {
+    printf("== %s ==\n", name);
+
+    for (int offset = 0; offset < chunk->count;) {
+        offset = disassemble_instruction(chunk, offset);
     }
 }
