@@ -153,6 +153,30 @@ src/chunk.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/clox.dir/build.make CMakeFiles/clox.dir/src/chunk.c.s
 .PHONY : src/chunk.c.s
 
+src/compiler.o: src/compiler.c.o
+.PHONY : src/compiler.o
+
+# target to build an object file
+src/compiler.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/clox.dir/build.make CMakeFiles/clox.dir/src/compiler.c.o
+.PHONY : src/compiler.c.o
+
+src/compiler.i: src/compiler.c.i
+.PHONY : src/compiler.i
+
+# target to preprocess a source file
+src/compiler.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/clox.dir/build.make CMakeFiles/clox.dir/src/compiler.c.i
+.PHONY : src/compiler.c.i
+
+src/compiler.s: src/compiler.c.s
+.PHONY : src/compiler.s
+
+# target to generate assembly for a file
+src/compiler.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/clox.dir/build.make CMakeFiles/clox.dir/src/compiler.c.s
+.PHONY : src/compiler.c.s
+
 src/debug.o: src/debug.c.o
 .PHONY : src/debug.o
 
@@ -225,6 +249,30 @@ src/memory.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/clox.dir/build.make CMakeFiles/clox.dir/src/memory.c.s
 .PHONY : src/memory.c.s
 
+src/scanner.o: src/scanner.c.o
+.PHONY : src/scanner.o
+
+# target to build an object file
+src/scanner.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/clox.dir/build.make CMakeFiles/clox.dir/src/scanner.c.o
+.PHONY : src/scanner.c.o
+
+src/scanner.i: src/scanner.c.i
+.PHONY : src/scanner.i
+
+# target to preprocess a source file
+src/scanner.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/clox.dir/build.make CMakeFiles/clox.dir/src/scanner.c.i
+.PHONY : src/scanner.c.i
+
+src/scanner.s: src/scanner.c.s
+.PHONY : src/scanner.s
+
+# target to generate assembly for a file
+src/scanner.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/clox.dir/build.make CMakeFiles/clox.dir/src/scanner.c.s
+.PHONY : src/scanner.c.s
+
 src/value.o: src/value.c.o
 .PHONY : src/value.o
 
@@ -285,6 +333,9 @@ help:
 	@echo "... src/chunk.o"
 	@echo "... src/chunk.i"
 	@echo "... src/chunk.s"
+	@echo "... src/compiler.o"
+	@echo "... src/compiler.i"
+	@echo "... src/compiler.s"
 	@echo "... src/debug.o"
 	@echo "... src/debug.i"
 	@echo "... src/debug.s"
@@ -294,6 +345,9 @@ help:
 	@echo "... src/memory.o"
 	@echo "... src/memory.i"
 	@echo "... src/memory.s"
+	@echo "... src/scanner.o"
+	@echo "... src/scanner.i"
+	@echo "... src/scanner.s"
 	@echo "... src/value.o"
 	@echo "... src/value.i"
 	@echo "... src/value.s"

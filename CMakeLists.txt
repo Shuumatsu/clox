@@ -11,6 +11,8 @@ add_executable(clox src/main.c
     src/memory.c src/memory.h
     src/value.c src/value.h
     src/vm.c src/vm.h
+    src/scanner.c src/scanner.h
+    src/compiler.c src/compiler.h
 )
 target_include_directories(clox PUBLIC src)
 set_property(TARGET clox PROPERTY C_STANDARD 17)
