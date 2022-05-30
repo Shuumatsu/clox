@@ -1,0 +1,943 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 3.81
+# Copyright (C) 2006  Free Software Foundation, Inc.
+# This is free software; see the source for copying conditions.
+# There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.
+
+# This program built for i386-apple-darwin11.3.0
+ 
+
+# Make data base, printed on Sat Jun  4 11:26:57 2022
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
+# environment
+LC_CTYPE = UTF-8
+# environment
+VSCODE_LOG_NATIVE = false
+# environment
+NVM_INC = /Users/keruih/.nvm/versions/node/v14.19.3/include/node
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# environment
+GRADLE_HOME = /Users/keruih/.gradle/latest
+# environment
+INDEED_JAVA_VERSION = 1.8.0_322
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# automatic
+@F = $(notdir $@)
+# makefile
+CURDIR := /Users/keruih/workspace/clox
+# makefile (from `Makefile', line 48)
+SHELL = /bin/sh
+# makefile (from `Makefile', line 54)
+RM = /opt/homebrew/Cellar/cmake/3.23.2/bin/cmake -E rm -f
+# environment
+AUTO_FIX_DEPENDENCIES = 1
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# environment
+_ = /usr/bin/make
+# environment
+CFLAGS = -I/usr/local/include -L/usr/local/lib  -I/opt/homebrew/include -L/opt/homebrew/lib
+# environment
+ 
+INDEEDTEST_MONGODB_HOST = localhost
+# makefile (from `Makefile', line 63)
+CMAKE_BINARY_DIR = /Users/keruih/workspace/clox
+# makefile (from `Makefile', line 1)
+MAKEFILE_LIST :=  Makefile
+# environment
+JAVA_HOME_NEXT_MAJOR = /Library/Java/JavaVirtualMachines/jdk11.0.15_10.jdk/Contents/Home
+# environment
+PHANTOMJS_HOME = /usr/local
+# environment
+INDEED_CONFIG_DIR = /Users/keruih/indeed/javadev/myconfig
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+__CFBundleIdentifier = com.microsoft.VSCode
+# environment
+INFOPATH = /opt/homebrew/share/info:
+# default
+MAKEFILEPATH = $(shell /usr/bin/xcode-select -print-path 2>/dev/null || echo /Developer)/Makefiles
+# makefile (from `Makefile', line 35)
+MAKESILENT = -s
+# environment
+VSCODE_IPC_HOOK_EXTHOST = /var/folders/gn/9qdxckkn0z3fxw913r8zn78r0000gn/T/vscode-ipc-7d5b28c1-c432-4e28-8f32-45afa8961a1d.sock
+# environment
+VSCODE_CWD = /Users/keruih/workspace
+# environment
+GOPROXY = https://nexus.corp.indeed.com/repository/go/,https://modprox-proxy.corp.indeed.com/,direct
+# environment
+SVNUSER = keruih
+# environment
+PATH = /Users/keruih/.nvm/versions/node/v14.19.3/bin:/Users/keruih/env/bin:/Users/keruih/.tfenv/bin:/Users/keruih/indeed/system-setup/bin:/Users/keruih/.indeed-dev-tools/bin:/Users/keruih/indeed/javadev/bin/po:/Users/keruih/indeed/javadev/bin:/opt/homebrew/opt/coreutils/libexec/gnubin:/opt/homebrew/opt/ed/libexec/gnubin:/opt/homebrew/opt/findutils/libexec/gnubin:/opt/homebrew/opt/gnu-indent/libexec/gnubin:/opt/homebrew/opt/gnu-sed/libexec/gnubin:/opt/homebrew/opt/gnu-tar/libexec/gnubin:/opt/homebrew/opt/gettext@0.20.2/bin:/opt/homebrew/opt/gnu-which/libexec/gnubin:/opt/homebrew/opt/gnutls/bin:/opt/homebrew/opt/grep/libexec/gnubin:/opt/homebrew/opt/openssl@1.1/bin:/opt/homebrew/opt/python@3.6.8/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/munki:/Users/keruih/.cargo/bin:/usr/local/go/bin:/Users/keruih/go/bin:/opt/homebrew/opt/mongodb-community@3.6/bin:/Users/keruih/.cargo/bin
+# environment
+INDEED_JAVADEV_DIR = /Users/keruih/indeed/javadev
+# environment
+INDEED_ENV_DIR = /Users/keruih/env
+# environment
+LSCOLORS = Gxfxcxdxbxegedabagacad
+# environment
+SVNSANDBOX = svn+ssh://svnssh.ausoff.indeed.net/sandbox/keruih
+# environment
+GITROOT = git@code.corp.indeed.com
+# environment
+INSTALL_SOURCEGRAPH_CLI = 1
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# environment
+GOPATH = /Users/keruih/go
+# environment
+NVM_BIN = /Users/keruih/.nvm/versions/node/v14.19.3/bin
+# environment
+INDEED_ANSIBLE_MANAGED = 1
+# environment
+BREW_PATH_PREFIX = /opt/homebrew/opt/coreutils/libexec/gnubin:/opt/homebrew/opt/ed/libexec/gnubin:/opt/homebrew/opt/findutils/libexec/gnubin:/opt/homebrew/opt/gnu-indent/libexec/gnubin:/opt/homebrew/opt/gnu-sed/libexec/gnubin:/opt/homebrew/opt/gnu-tar/libexec/gnubin:/opt/homebrew/opt/gettext@0.20.2/bin:/opt/homebrew/opt/gnu-which/libexec/gnubin:/opt/homebrew/opt/gnutls/bin:/opt/homebrew/opt/grep/libexec/gnubin:/opt/homebrew/opt/openssl@1.1/bin:/opt/homebrew/opt/python@3.6.8/bin
+# environment
+LaunchInstanceID = 463B611B-F135-446F-BEFB-6AEF5176C45E
+# environment
+VSCODE_LOG_STACK = false
+# environment
+AUTO_CHECK_REPOS = /Users/keruih/indeed/system-setup:
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# default
+.FEATURES := target-specific order-only second-expansion else-if archives jobserver check-symlink
+# environment
+SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.bMzxun9MRo/Listeners
+# automatic
+%F = $(notdir $%)
+# environment
+OPS_MANAGED = 0
+# environment
+VISUAL = nvim
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+PWD = /Users/keruih/workspace/clox
+# environment
+INDEEDTEST_MONGODB_REPL = localhost:27017,localhost:27018
+# environment
+__INDEED_UNAME_S = Darwin
+# environment
+HOMEBREW_CELLAR = /opt/homebrew/Cellar
+# environment
+ZSH_DISABLE_COMPFIX = true
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+MANPATH = /Users/keruih/.nvm/versions/node/v14.19.3/share/man:/opt/homebrew/share/man::
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /Users/keruih
+# environment
+INDEED_HOBO_DIR = /Users/keruih/indeed/hobo
+# environment
+LDAPUSER = keruih
+# environment
+VSCODE_CLI = 1
+# environment
+PERL5LIB = /Users/keruih/indeed/perl5/lib/perl5
+# environment
+VSCODE_CODE_CACHE_PATH = /Users/keruih/Library/Application Support/Code/CachedData/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5
+# environment
+LOGNAME = keruih
+# environment
+INDEED_TEAMS = 
+# makefile (from `Makefile', line 57)
+EQUALS = =
+# environment
+NVM_CD_FLAGS = -q
+# environment
+ZSH = /Users/keruih/.oh-my-zsh
+# environment
+CATALINA_OPTS = -Dindeed.oome.file=/var/local/indeed.oome.txt
+# environment
+WORKON_HOME = /Users/keruih/virtualenvs/
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+export__with_default = 
+# environment
+MAKELEVEL := 0
+# environment
+XPC_FLAGS = 0x0
+# environment
+COLORTERM = truecolor
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+LC_TERMINAL = iTerm2
+# environment
+SHLVL = 3
+# environment
+JAVA_HOME = /Library/Java/JavaVirtualMachines/jdk1.8.0_322.jdk/Contents/Home
+# environment
+XPC_SERVICE_NAME = application.com.microsoft.VSCode.573143.573149.5199329B-B21A-4DDE-865D-0545ED554A81
+# default
+MAKE_VERSION := 3.81
+# environment
+USER = keruih
+# makefile
+.DEFAULT_GOAL := default_target
+# makefile (from `Makefile', line 60)
+CMAKE_SOURCE_DIR = /Users/keruih/workspace/clox
+# environment
+INDEED_OFFICE = nrtoff
+# default
+MAKECMDGOALS := all
+# environment
+TERM_SESSION_ID = w0t0p0:B001468C-AE7B-47A9-B53C-542FDA6D13F1
+# environment
+LESS = -R
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+INDEED_DEV_TOOLS = /Users/keruih/.indeed-dev-tools
+# default
+MAKE_COMMAND := /Library/Developer/CommandLineTools/usr/bin/make
+# environment
+TERM_PROGRAM = iTerm.app
+# default
+.VARIABLES := 
+# environment
+TMPDIR = /var/folders/gn/9qdxckkn0z3fxw913r8zn78r0000gn/T/
+# automatic
+*F = $(notdir $*)
+# environment
+VSCODE_IPC_HOOK = /Users/keruih/Library/Application Support/Code/1.67.2-main.sock
+# makefile
+MAKEFLAGS = sRrqp
+# environment
+MFLAGS = -sRrqp
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+TERM_PROGRAM_VERSION = 3.4.15
+# environment
+NVM_DIR = /Users/keruih/.nvm
+# environment
+INDEED_PROJECT_DIR = /Users/keruih/indeed
+# environment
+LC_TERMINAL_VERSION = 3.4.15
+# environment
+HOMEBREW_PREFIX = /opt/homebrew
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+INDEED_GLOBAL_DIR = /Users/keruih/indeed
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# environment
+GOSUMDB = off
+# automatic
++F = $(notdir $+)
+# environment
+ITERM_SESSION_ID = w0t0p0:B001468C-AE7B-47A9-B53C-542FDA6D13F1
+# environment
+HOMEBREW_REPOSITORY = /opt/homebrew
+# environment
+COLORFGBG = 15;0
+# environment
+INDEED_DOCKER_HOBO = system-setup
+# environment
+__CF_USER_TEXT_ENCODING = 0x1F5:0x0:0x0
+# environment
+NPM_CONFIG_GLOBALCONFIG = /Users/keruih/indeed/javadev/npm/prod/npmrc
+# environment
+COMMAND_MODE = unix2003
+# default
+MAKEFILES := 
+# environment
+SVNROOT = svn+ssh://svnssh.ausoff.indeed.net
+# automatic
+<F = $(notdir $<)
+# environment
+ITERM_PROFILE = Default
+# environment
+HOSTNAME_SUFFIX = 
+# environment
+EDITOR = nvim
+# environment
+PAGER = less
+# environment
+LC_ALL = C
+# environment
+__INDEED_PROFILE = 1
+# environment
+SECURITYSESSIONID = 186ab
+# makefile (from `Makefile', line 51)
+CMAKE_COMMAND = /opt/homebrew/Cellar/cmake/3.23.2/bin/cmake
+# automatic
+^F = $(notdir $^)
+# environment
+SKIP_CLEAN = true
+# default
+SUFFIXES := 
+# environment
+ 
+JOBSEARCH_ARTIFACTS =     activeads     afskeywords     afstemplates     analysis_location     analysis_query     browsecmp     browsejobs     clicknorm     cmpgrpinfo     cmpinfo     currency_config_matrix     eastasian_sponjobs     emailimagewhitelist     empaffreferralinfo     expjobs     extraction     findjobs     geo     geo_stopwords     global_sponjobs     goodjadomains     hiddenjobs     illegal_cmp_forums     imptag     kwadindex     locationwhitelist     locinfo     maxmind     normalization     onetrelatedsearches     orgmodel     orgmodel_alt     pages     pages_static     privileged_ips     proctor     publishers     query_stopwords     recommendations     samplequeries     semchannels     seowhitelist     sjmodel     sjmodel_alt     sjmodel_intl     spell     spiders     sponjobs     srcboost
+# environment
+INSTALL_JETBRAINS_TOOLBOX = 1
+# environment
+INDEED_HOMEBREW_MIRROR = 0
+# environment
+PERL_CPANM_HOME = /Users/keruih/.cpanm
+# environment
+LANG = C
+# environment
+TERM = xterm-256color
+# environment
+VSCODE_PID = 57598
+# variable set hash-table stats:
+# Load=143/1024=14%, Rehash=0, Collisions=17/174=10%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# SCCS: could not be stat'd.
+# . (device 16777230, inode 1440399): 13 files, no impossibilities.
+# RCS: could not be stat'd.
+
+# 13 files, no impossibilities in 3 directories.
+
+# Implicit Rules
+
+%: %,v
+
+%: RCS/%
+
+%: RCS/%,v
+
+%: SCCS/s.%
+
+%: s.%
+
+%.hpux_make_needs_suffix_list:
+
+# 6 implicit rules, 0 (0.0%) terminal.
+
+# Files
+
+src/value.c.i:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 289):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/clox.dir/build.make CMakeFiles/clox.dir/src/value.c.i
+	
+
+src/value.c.o:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 281):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/clox.dir/build.make CMakeFiles/clox.dir/src/value.c.o
+	
+
+cmake_force:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+src/compiler.c.i:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 169):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/clox.dir/build.make CMakeFiles/clox.dir/src/compiler.c.i
+	
+
+src/compiler.c.o:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 161):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/clox.dir/build.make CMakeFiles/clox.dir/src/compiler.c.o
+	
+
+src/compiler.s: src/compiler.c.s
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+edit_cache:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 70):
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
+	/opt/homebrew/Cellar/cmake/3.23.2/bin/ccmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	
+
+src/scanner.c.i:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 265):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/clox.dir/build.make CMakeFiles/clox.dir/src/scanner.c.i
+	
+
+src/scanner.c.o:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 257):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/clox.dir/build.make CMakeFiles/clox.dir/src/scanner.c.o
+	
+
+src/scanner.s: src/scanner.c.s
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+all: cmake_check_build_system
+#  Phony target (prerequisite of .PHONY).
+#  Command-line target.
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/5=0%
+#  commands to execute (from `Makefile', line 90):
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/keruih/workspace/clox/CMakeFiles /Users/keruih/workspace/clox//CMakeFiles/progress.marks
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/keruih/workspace/clox/CMakeFiles 0
+	
+
+src/vm.c.s:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 321):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/clox.dir/build.make CMakeFiles/clox.dir/src/vm.c.s
+	
+
+src/debug.c.s:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 201):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/clox.dir/build.make CMakeFiles/clox.dir/src/debug.c.s
+	
+
+.PHONY: default_target cmake_force edit_cache edit_cache/fast rebuild_cache rebuild_cache/fast all clean clean/fast preinstall preinstall/fast depend clox clox/fast src/chunk.o src/chunk.c.o src/chunk.i src/chunk.c.i src/chunk.s src/chunk.c.s src/compiler.o src/compiler.c.o src/compiler.i src/compiler.c.i src/compiler.s src/compiler.c.s src/debug.o src/debug.c.o src/debug.i src/debug.c.i src/debug.s src/debug.c.s src/main.o src/main.c.o src/main.i src/main.c.i src/main.s src/main.c.s src/memory.o src/memory.c.o src/memory.i src/memory.c.i src/memory.s src/memory.c.s src/scanner.o src/scanner.c.o src/scanner.i src/scanner.c.i src/scanner.s src/scanner.c.s src/value.o src/value.c.o src/value.i src/value.c.i src/value.s src/value.c.s src/vm.o src/vm.c.o src/vm.i src/vm.c.i src/vm.s src/vm.c.s help cmake_check_build_system
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+src/main.i: src/main.c.i
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+src/main.o: src/main.c.o
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+src/chunk.c.i:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 145):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/clox.dir/build.make CMakeFiles/clox.dir/src/chunk.c.i
+	
+
+src/chunk.c.o:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 137):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/clox.dir/build.make CMakeFiles/clox.dir/src/chunk.c.o
+	
+
+src/chunk.s: src/chunk.c.s
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+preinstall/fast:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 111):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 preinstall
+	
+
+src/value.s: src/value.c.s
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+src/value.o: src/value.c.o
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+.SUFFIXES: .hpux_make_needs_suffix_list
+ 
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-04 11:21:44
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+src/memory.i: src/memory.c.i
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+src/memory.o: src/memory.c.o
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+.NOTPARALLEL:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+src/value.c.s:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 297):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/clox.dir/build.make CMakeFiles/clox.dir/src/value.c.s
+	
+
+src/vm.s: src/vm.c.s
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+clean/fast: clean
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+src/vm.i: src/vm.c.i
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+src/debug.i: src/debug.c.i
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+src/vm.o: src/vm.c.o
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+src/debug.o: src/debug.c.o
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+src/compiler.c.s:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 177):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/clox.dir/build.make CMakeFiles/clox.dir/src/compiler.c.s
+	
+
+cmake_check_build_system:
+ 
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: `'
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := cmake_check_build_system
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := 
+# automatic
+# | := 
+# automatic
+# < := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=3/13=23%
+#  commands to execute (from `Makefile', line 368):
+	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	
+
+src/scanner.c.s:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 273):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/clox.dir/build.make CMakeFiles/clox.dir/src/scanner.c.s
+	
+
+help:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 326):
+	@echo "The following are some of the valid targets for this Makefile:"
+	@echo "... all (the default if no target is provided)"
+	@echo "... clean"
+	@echo "... depend"
+	@echo "... edit_cache"
+	@echo "... rebuild_cache"
+	@echo "... clox"
+	@echo "... src/chunk.o"
+	@echo "... src/chunk.i"
+	@echo "... src/chunk.s"
+	@echo "... src/compiler.o"
+ 
+	@echo "... src/compiler.i"
+	@echo "... src/compiler.s"
+	@echo "... src/debug.o"
+	@echo "... src/debug.i"
+	@echo "... src/debug.s"
+	@echo "... src/main.o"
+	@echo "... src/main.i"
+	@echo "... src/main.s"
+	@echo "... src/memory.o"
+	@echo "... src/memory.i"
+	@echo "... src/memory.s"
+	@echo "... src/scanner.o"
+	@echo "... src/scanner.i"
+	@echo "... src/scanner.s"
+	@echo "... src/value.o"
+	@echo "... src/value.i"
+	@echo "... src/value.s"
+	@echo "... src/vm.o"
+	@echo "... src/vm.i"
+	@echo "... src/vm.s"
+	
+
+preinstall: all
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 106):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 preinstall
+	
+
+src/main.c.i:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 217):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/clox.dir/build.make CMakeFiles/clox.dir/src/main.c.i
+	
+
+src/main.c.o:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 209):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/clox.dir/build.make CMakeFiles/clox.dir/src/main.c.o
+	
+
+src/main.s: src/main.c.s
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+.SILENT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+src/chunk.c.s:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 153):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/clox.dir/build.make CMakeFiles/clox.dir/src/chunk.c.s
+	
+
+depend:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 116):
+	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	
+
+clox/fast:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 129):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/clox.dir/build.make CMakeFiles/clox.dir/build
+	
+
+src/value.i: src/value.c.i
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+default_target: all
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+src/memory.c.s:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 249):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/clox.dir/build.make CMakeFiles/clox.dir/src/memory.c.s
+	
+
+src/vm.c.i:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 313):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/clox.dir/build.make CMakeFiles/clox.dir/src/vm.c.i
+	
+
+src/memory.c.i:
+#  Phony target (prerequisite of .PHONY).
+ 
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 241):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/clox.dir/build.make CMakeFiles/clox.dir/src/memory.c.i
+	
+
+src/memory.c.o:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 233):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/clox.dir/build.make CMakeFiles/clox.dir/src/memory.c.o
+	
+
+src/memory.s: src/memory.c.s
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+clean:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 97):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 clean
+	
+
+src/compiler.i: src/compiler.c.i
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+src/compiler.o: src/compiler.c.o
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+rebuild_cache/fast: rebuild_cache
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+edit_cache/fast: edit_cache
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+src/scanner.i: src/scanner.c.i
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+src/scanner.o: src/scanner.c.o
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+src/debug.c.i:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 193):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/clox.dir/build.make CMakeFiles/clox.dir/src/debug.c.i
+	
+
+src/vm.c.o:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 305):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/clox.dir/build.make CMakeFiles/clox.dir/src/vm.c.o
+	
+
+src/debug.c.o:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 185):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/clox.dir/build.make CMakeFiles/clox.dir/src/debug.c.o
+	
+
+src/debug.s: src/debug.c.s
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+src/chunk.i: src/chunk.c.i
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+src/chunk.o: src/chunk.c.o
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+# Not a target:
+.hpux_make_needs_suffix_list:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+clox: cmake_check_build_system
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 124):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 clox
+	
+
+src/main.c.s:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 225):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/clox.dir/build.make CMakeFiles/clox.dir/src/main.c.s
+	
+
+rebuild_cache:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 80):
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/opt/homebrew/Cellar/cmake/3.23.2/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	
+
+# files hash-table stats:
+# Load=71/1024=7%, Rehash=0, Collisions=17/246=7%
+# VPATH Search Paths
+
+# No `vpath' search paths.
+
+# No general (`VPATH' variable) search path.
+
+# # of strings in strcache: 1
+# # of strcache buffers: 1
+# strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
+# strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
+
+# Finished Make data base on Sat Jun  4 11:26:57 2022
+
+ 

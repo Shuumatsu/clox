@@ -19,7 +19,7 @@ void* reallocate(void* ptr, size_t old_size, size_t new_size) {
         printf("reallocate failed for %p with new size %d\n", ptr, new_size);
         exit(1);
     }
-    printf("reallocated %p as %p from %d to %d\n", ptr, result, old_size,
-           new_size);
+    // printf("reallocated %p as %p from %d to %d\n", ptr, result, old_size,
+    //        new_size);
     return result;
 }

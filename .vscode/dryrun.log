@@ -1,0 +1,37 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/Users/keruih/workspace/clox'
+/opt/homebrew/Cellar/cmake/3.23.2/bin/cmake -S/Users/keruih/workspace/clox -B/Users/keruih/workspace/clox --check-build-system CMakeFiles/Makefile.cmake 0
+/opt/homebrew/Cellar/cmake/3.23.2/bin/cmake -E cmake_progress_start /Users/keruih/workspace/clox/CMakeFiles /Users/keruih/workspace/clox//CMakeFiles/progress.marks
+/Library/Developer/CommandLineTools/usr/bin/make -s -f CMakeFiles/Makefile2 all
+ 
+make[1]: Entering directory `/Users/keruih/workspace/clox'
+/Library/Developer/CommandLineTools/usr/bin/make -s -f CMakeFiles/clox.dir/build.make CMakeFiles/clox.dir/depend
+make[2]: Entering directory `/Users/keruih/workspace/clox'
+cd /Users/keruih/workspace/clox && /opt/homebrew/Cellar/cmake/3.23.2/bin/cmake -E cmake_depends "Unix Makefiles" /Users/keruih/workspace/clox /Users/keruih/workspace/clox /Users/keruih/workspace/clox /Users/keruih/workspace/clox /Users/keruih/workspace/clox/CMakeFiles/clox.dir/DependInfo.cmake --color=
+make[2]: Leaving directory `/Users/keruih/workspace/clox'
+/Library/Developer/CommandLineTools/usr/bin/make -s -f CMakeFiles/clox.dir/build.make CMakeFiles/clox.dir/build
+make[2]: Entering directory `/Users/keruih/workspace/clox'
+/opt/homebrew/Cellar/cmake/3.23.2/bin/cmake -E cmake_echo_color --switch= --green --progress-dir=/Users/keruih/workspace/clox/CMakeFiles --progress-num=1 "Building C object CMakeFiles/clox.dir/src/main.c.o"
+/Library/Developer/CommandLineTools/usr/bin/cc  -I/Users/keruih/workspace/clox/src -I/usr/local/include -L/usr/local/lib  -I/opt/homebrew/include -L/opt/homebrew/lib -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu17 -MD -MT CMakeFiles/clox.dir/src/main.c.o -MF CMakeFiles/clox.dir/src/main.c.o.d -o CMakeFiles/clox.dir/src/main.c.o -c /Users/keruih/workspace/clox/src/main.c
+/opt/homebrew/Cellar/cmake/3.23.2/bin/cmake -E cmake_echo_color --switch= --green --progress-dir=/Users/keruih/workspace/clox/CMakeFiles --progress-num=2 "Building C object CMakeFiles/clox.dir/src/debug.c.o"
+/Library/Developer/CommandLineTools/usr/bin/cc  -I/Users/keruih/workspace/clox/src -I/usr/local/include -L/usr/local/lib  -I/opt/homebrew/include -L/opt/homebrew/lib -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu17 -MD -MT CMakeFiles/clox.dir/src/debug.c.o -MF CMakeFiles/clox.dir/src/debug.c.o.d -o CMakeFiles/clox.dir/src/debug.c.o -c /Users/keruih/workspace/clox/src/debug.c
+/opt/homebrew/Cellar/cmake/3.23.2/bin/cmake -E cmake_echo_color --switch= --green --progress-dir=/Users/keruih/workspace/clox/CMakeFiles --progress-num=3 "Building C object CMakeFiles/clox.dir/src/chunk.c.o"
+/Library/Developer/CommandLineTools/usr/bin/cc  -I/Users/keruih/workspace/clox/src -I/usr/local/include -L/usr/local/lib  -I/opt/homebrew/include -L/opt/homebrew/lib -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu17 -MD -MT CMakeFiles/clox.dir/src/chunk.c.o -MF CMakeFiles/clox.dir/src/chunk.c.o.d -o CMakeFiles/clox.dir/src/chunk.c.o -c /Users/keruih/workspace/clox/src/chunk.c
+/opt/homebrew/Cellar/cmake/3.23.2/bin/cmake -E cmake_echo_color --switch= --green --progress-dir=/Users/keruih/workspace/clox/CMakeFiles --progress-num=4 "Building C object CMakeFiles/clox.dir/src/memory.c.o"
+/Library/Developer/CommandLineTools/usr/bin/cc  -I/Users/keruih/workspace/clox/src -I/usr/local/include -L/usr/local/lib  -I/opt/homebrew/include -L/opt/homebrew/lib -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu17 -MD -MT CMakeFiles/clox.dir/src/memory.c.o -MF CMakeFiles/clox.dir/src/memory.c.o.d -o CMakeFiles/clox.dir/src/memory.c.o -c /Users/keruih/workspace/clox/src/memory.c
+/opt/homebrew/Cellar/cmake/3.23.2/bin/cmake -E cmake_echo_color --switch= --green --progress-dir=/Users/keruih/workspace/clox/CMakeFiles --progress-num=5 "Building C object CMakeFiles/clox.dir/src/value.c.o"
+/Library/Developer/CommandLineTools/usr/bin/cc  -I/Users/keruih/workspace/clox/src -I/usr/local/include -L/usr/local/lib  -I/opt/homebrew/include -L/opt/homebrew/lib -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu17 -MD -MT CMakeFiles/clox.dir/src/value.c.o -MF CMakeFiles/clox.dir/src/value.c.o.d -o CMakeFiles/clox.dir/src/value.c.o -c /Users/keruih/workspace/clox/src/value.c
+/opt/homebrew/Cellar/cmake/3.23.2/bin/cmake -E cmake_echo_color --switch= --green --progress-dir=/Users/keruih/workspace/clox/CMakeFiles --progress-num=6 "Building C object CMakeFiles/clox.dir/src/vm.c.o"
+/Library/Developer/CommandLineTools/usr/bin/cc  -I/Users/keruih/workspace/clox/src -I/usr/local/include -L/usr/local/lib  -I/opt/homebrew/include -L/opt/homebrew/lib -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu17 -MD -MT CMakeFiles/clox.dir/src/vm.c.o -MF CMakeFiles/clox.dir/src/vm.c.o.d -o CMakeFiles/clox.dir/src/vm.c.o -c /Users/keruih/workspace/clox/src/vm.c
+/opt/homebrew/Cellar/cmake/3.23.2/bin/cmake -E cmake_echo_color --switch= --green --progress-dir=/Users/keruih/workspace/clox/CMakeFiles --progress-num=7 "Building C object CMakeFiles/clox.dir/src/scanner.c.o"
+/Library/Developer/CommandLineTools/usr/bin/cc  -I/Users/keruih/workspace/clox/src -I/usr/local/include -L/usr/local/lib  -I/opt/homebrew/include -L/opt/homebrew/lib -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu17 -MD -MT CMakeFiles/clox.dir/src/scanner.c.o -MF CMakeFiles/clox.dir/src/scanner.c.o.d -o CMakeFiles/clox.dir/src/scanner.c.o -c /Users/keruih/workspace/clox/src/scanner.c
+/opt/homebrew/Cellar/cmake/3.23.2/bin/cmake -E cmake_echo_color --switch= --green --progress-dir=/Users/keruih/workspace/clox/CMakeFiles --progress-num=8 "Building C object CMakeFiles/clox.dir/src/compiler.c.o"
+/Library/Developer/CommandLineTools/usr/bin/cc  -I/Users/keruih/workspace/clox/src -I/usr/local/include -L/usr/local/lib  -I/opt/homebrew/include -L/opt/homebrew/lib -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu17 -MD -MT CMakeFiles/clox.dir/src/compiler.c.o -MF CMakeFiles/clox.dir/src/compiler.c.o.d -o CMakeFiles/clox.dir/src/compiler.c.o -c /Users/keruih/workspace/clox/src/compiler.c
+/opt/homebrew/Cellar/cmake/3.23.2/bin/cmake -E cmake_echo_color --switch= --green --bold --progress-dir=/Users/keruih/workspace/clox/CMakeFiles --progress-num=9 "Linking C executable clox"
+/opt/homebrew/Cellar/cmake/3.23.2/bin/cmake -E cmake_link_script CMakeFiles/clox.dir/link.txt --verbose=
+make[2]: Leaving directory `/Users/keruih/workspace/clox'
+/opt/homebrew/Cellar/cmake/3.23.2/bin/cmake -E cmake_echo_color --switch= --progress-dir=/Users/keruih/workspace/clox/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9 "Built target clox"
+make[1]: Leaving directory `/Users/keruih/workspace/clox'
+/opt/homebrew/Cellar/cmake/3.23.2/bin/cmake -E cmake_progress_start /Users/keruih/workspace/clox/CMakeFiles 0
+make: Leaving directory `/Users/keruih/workspace/clox'
+ 

@@ -1,8 +1,9 @@
-#include "common.h"
-
 #ifndef clox_compiler_h
 #define clox_compiler_h
 
-void compile(const char* source);
+#include "common.h"
+#include "scanner.h"
+
+bool compile(const char* source, Chunk* chunk);
 
 #endif
