@@ -14,9 +14,15 @@ void reset_stack() {
     vm.objects = NULL;
 }
 
-void init_vm() { reset_stack(); }
+void init_vm() {
+    reset_stack();
+    init_table(&vm.strings);
+}
 
-void free_vm() { free_objects(); }
+void free_vm() {
+    free_table(&vm.strings);
+    free_objects();
+}
 
 static Value peek(int distance) { return vm.stack_top[-1 - distance]; }
 
@@ -48,6 +54,7 @@ bool values_equal(Value a, Value b) {
             return sq->length == sb->length &&
                    memcmp(sq->chars, sb->chars, sq->length) == 0;
         }
+        case VAL_OBJ: return AS_OBJ(a) == AS_OBJ(b);
         default: return false;  // Unreachable.
     }
 }

@@ -5,6 +5,7 @@
 #include "memory.h"
 #include "value.h"
 #include "object.h"
+#include "table.h"
 
 #define STACK_MAX 256
 
@@ -16,6 +17,7 @@ typedef struct {
     // points at the array element just past the element containing the top
     // value on the stack
     Value* stack_top;
+    Table strings;
     Obj* objects;
 } VM;
 
