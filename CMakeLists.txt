@@ -14,6 +14,7 @@ add_executable(clox src/main.c
     src/scanner.c src/scanner.h
     src/compiler.c src/compiler.h
     src/object.h src/object.c
+    src/table.h src/table.c
 )
 target_include_directories(clox PUBLIC src)
 set_property(TARGET clox PROPERTY C_STANDARD 17)

@@ -15,6 +15,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/akatsuki/workspace/clox/src/memory.c" "CMakeFiles/clox.dir/src/memory.c.o" "gcc" "CMakeFiles/clox.dir/src/memory.c.o.d"
   "/home/akatsuki/workspace/clox/src/object.c" "CMakeFiles/clox.dir/src/object.c.o" "gcc" "CMakeFiles/clox.dir/src/object.c.o.d"
   "/home/akatsuki/workspace/clox/src/scanner.c" "CMakeFiles/clox.dir/src/scanner.c.o" "gcc" "CMakeFiles/clox.dir/src/scanner.c.o.d"
+  "/home/akatsuki/workspace/clox/src/table.c" "CMakeFiles/clox.dir/src/table.c.o" "gcc" "CMakeFiles/clox.dir/src/table.c.o.d"
   "/home/akatsuki/workspace/clox/src/value.c" "CMakeFiles/clox.dir/src/value.c.o" "gcc" "CMakeFiles/clox.dir/src/value.c.o.d"
   "/home/akatsuki/workspace/clox/src/vm.c" "CMakeFiles/clox.dir/src/vm.c.o" "gcc" "CMakeFiles/clox.dir/src/vm.c.o.d"
   )
