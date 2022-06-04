@@ -249,6 +249,30 @@ src/memory.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/clox.dir/build.make CMakeFiles/clox.dir/src/memory.c.s
 .PHONY : src/memory.c.s
 
+src/object.o: src/object.c.o
+.PHONY : src/object.o
+
+# target to build an object file
+src/object.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/clox.dir/build.make CMakeFiles/clox.dir/src/object.c.o
+.PHONY : src/object.c.o
+
+src/object.i: src/object.c.i
+.PHONY : src/object.i
+
+# target to preprocess a source file
+src/object.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/clox.dir/build.make CMakeFiles/clox.dir/src/object.c.i
+.PHONY : src/object.c.i
+
+src/object.s: src/object.c.s
+.PHONY : src/object.s
+
+# target to generate assembly for a file
+src/object.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/clox.dir/build.make CMakeFiles/clox.dir/src/object.c.s
+.PHONY : src/object.c.s
+
 src/scanner.o: src/scanner.c.o
 .PHONY : src/scanner.o
 
@@ -345,6 +369,9 @@ help:
 	@echo "... src/memory.o"
 	@echo "... src/memory.i"
 	@echo "... src/memory.s"
+	@echo "... src/object.o"
+	@echo "... src/object.i"
+	@echo "... src/object.s"
 	@echo "... src/scanner.o"
 	@echo "... src/scanner.i"
 	@echo "... src/scanner.s"

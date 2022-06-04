@@ -2,6 +2,9 @@
 #define clox_vm_h
 
 #include "chunk.h"
+#include "memory.h"
+#include "value.h"
+#include "object.h"
 
 #define STACK_MAX 256
 
@@ -13,7 +16,10 @@ typedef struct {
     // points at the array element just past the element containing the top
     // value on the stack
     Value* stack_top;
+    Obj* objects;
 } VM;
+
+extern VM vm;
 
 void init_vm();
 void free_vm();

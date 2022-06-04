@@ -1,6 +1,7 @@
 #include "common.h"
 #include "compiler.h"
 #include "scanner.h"
+#include "object.h"
 #include "debug.h"
 
 typedef struct {
@@ -111,6 +112,7 @@ static void consume(TokenType type, const char* message) {
 }
 
 static void literal();
+static void string();
 static void unary();
 static void grouping();
 static void binary();
@@ -140,7 +142,7 @@ ParseRule rules[] = {
     [TOKEN_LESS] = {NULL, binary, PREC_COMPARISON},
     [TOKEN_LESS_EQUAL] = {NULL, binary, PREC_COMPARISON},
     [TOKEN_IDENTIFIER] = {NULL, NULL, PREC_NONE},
-    [TOKEN_STRING] = {NULL, NULL, PREC_NONE},
+    [TOKEN_STRING] = {string, NULL, PREC_NONE},
     [TOKEN_NUMBER] = {number, NULL, PREC_NONE},
     [TOKEN_AND] = {NULL, NULL, PREC_NONE},
     [TOKEN_CLASS] = {NULL, NULL, PREC_NONE},
@@ -171,6 +173,11 @@ static void literal() {
         case TOKEN_TRUE: emit_byte(OP_TRUE); break;
         default: return;  // Unreachable.
     }
+}
+
+static void string() {
+    emit_constant(OBJ_VAL(
+        copy_string(parser.previous.start + 1, parser.previous.length - 2)));
 }
 
 static void parse_precedence(Precedence precedence) {
