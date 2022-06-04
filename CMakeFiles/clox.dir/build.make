@@ -44,19 +44,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /opt/homebrew/Cellar/cmake/3.23.2/bin/cmake
+CMAKE_COMMAND = /usr/bin/cmake
 
 # The command to remove a file.
-RM = /opt/homebrew/Cellar/cmake/3.23.2/bin/cmake -E rm -f
+RM = /usr/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/keruih/workspace/clox
+CMAKE_SOURCE_DIR = /home/akatsuki/workspace/clox
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/keruih/workspace/clox
+CMAKE_BINARY_DIR = /home/akatsuki/workspace/clox
 
 # Include any dependencies generated for this target.
 include CMakeFiles/clox.dir/depend.make
@@ -72,114 +72,114 @@ include CMakeFiles/clox.dir/flags.make
 CMakeFiles/clox.dir/src/main.c.o: CMakeFiles/clox.dir/flags.make
 CMakeFiles/clox.dir/src/main.c.o: src/main.c
 CMakeFiles/clox.dir/src/main.c.o: CMakeFiles/clox.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/keruih/workspace/clox/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/clox.dir/src/main.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/clox.dir/src/main.c.o -MF CMakeFiles/clox.dir/src/main.c.o.d -o CMakeFiles/clox.dir/src/main.c.o -c /Users/keruih/workspace/clox/src/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/akatsuki/workspace/clox/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/clox.dir/src/main.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/clox.dir/src/main.c.o -MF CMakeFiles/clox.dir/src/main.c.o.d -o CMakeFiles/clox.dir/src/main.c.o -c /home/akatsuki/workspace/clox/src/main.c
 
 CMakeFiles/clox.dir/src/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/clox.dir/src/main.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/keruih/workspace/clox/src/main.c > CMakeFiles/clox.dir/src/main.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/akatsuki/workspace/clox/src/main.c > CMakeFiles/clox.dir/src/main.c.i
 
 CMakeFiles/clox.dir/src/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/clox.dir/src/main.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/keruih/workspace/clox/src/main.c -o CMakeFiles/clox.dir/src/main.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/akatsuki/workspace/clox/src/main.c -o CMakeFiles/clox.dir/src/main.c.s
 
 CMakeFiles/clox.dir/src/debug.c.o: CMakeFiles/clox.dir/flags.make
 CMakeFiles/clox.dir/src/debug.c.o: src/debug.c
 CMakeFiles/clox.dir/src/debug.c.o: CMakeFiles/clox.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/keruih/workspace/clox/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/clox.dir/src/debug.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/clox.dir/src/debug.c.o -MF CMakeFiles/clox.dir/src/debug.c.o.d -o CMakeFiles/clox.dir/src/debug.c.o -c /Users/keruih/workspace/clox/src/debug.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/akatsuki/workspace/clox/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/clox.dir/src/debug.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/clox.dir/src/debug.c.o -MF CMakeFiles/clox.dir/src/debug.c.o.d -o CMakeFiles/clox.dir/src/debug.c.o -c /home/akatsuki/workspace/clox/src/debug.c
 
 CMakeFiles/clox.dir/src/debug.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/clox.dir/src/debug.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/keruih/workspace/clox/src/debug.c > CMakeFiles/clox.dir/src/debug.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/akatsuki/workspace/clox/src/debug.c > CMakeFiles/clox.dir/src/debug.c.i
 
 CMakeFiles/clox.dir/src/debug.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/clox.dir/src/debug.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/keruih/workspace/clox/src/debug.c -o CMakeFiles/clox.dir/src/debug.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/akatsuki/workspace/clox/src/debug.c -o CMakeFiles/clox.dir/src/debug.c.s
 
 CMakeFiles/clox.dir/src/chunk.c.o: CMakeFiles/clox.dir/flags.make
 CMakeFiles/clox.dir/src/chunk.c.o: src/chunk.c
 CMakeFiles/clox.dir/src/chunk.c.o: CMakeFiles/clox.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/keruih/workspace/clox/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/clox.dir/src/chunk.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/clox.dir/src/chunk.c.o -MF CMakeFiles/clox.dir/src/chunk.c.o.d -o CMakeFiles/clox.dir/src/chunk.c.o -c /Users/keruih/workspace/clox/src/chunk.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/akatsuki/workspace/clox/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/clox.dir/src/chunk.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/clox.dir/src/chunk.c.o -MF CMakeFiles/clox.dir/src/chunk.c.o.d -o CMakeFiles/clox.dir/src/chunk.c.o -c /home/akatsuki/workspace/clox/src/chunk.c
 
 CMakeFiles/clox.dir/src/chunk.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/clox.dir/src/chunk.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/keruih/workspace/clox/src/chunk.c > CMakeFiles/clox.dir/src/chunk.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/akatsuki/workspace/clox/src/chunk.c > CMakeFiles/clox.dir/src/chunk.c.i
 
 CMakeFiles/clox.dir/src/chunk.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/clox.dir/src/chunk.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/keruih/workspace/clox/src/chunk.c -o CMakeFiles/clox.dir/src/chunk.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/akatsuki/workspace/clox/src/chunk.c -o CMakeFiles/clox.dir/src/chunk.c.s
 
 CMakeFiles/clox.dir/src/memory.c.o: CMakeFiles/clox.dir/flags.make
 CMakeFiles/clox.dir/src/memory.c.o: src/memory.c
 CMakeFiles/clox.dir/src/memory.c.o: CMakeFiles/clox.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/keruih/workspace/clox/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/clox.dir/src/memory.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/clox.dir/src/memory.c.o -MF CMakeFiles/clox.dir/src/memory.c.o.d -o CMakeFiles/clox.dir/src/memory.c.o -c /Users/keruih/workspace/clox/src/memory.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/akatsuki/workspace/clox/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/clox.dir/src/memory.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/clox.dir/src/memory.c.o -MF CMakeFiles/clox.dir/src/memory.c.o.d -o CMakeFiles/clox.dir/src/memory.c.o -c /home/akatsuki/workspace/clox/src/memory.c
 
 CMakeFiles/clox.dir/src/memory.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/clox.dir/src/memory.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/keruih/workspace/clox/src/memory.c > CMakeFiles/clox.dir/src/memory.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/akatsuki/workspace/clox/src/memory.c > CMakeFiles/clox.dir/src/memory.c.i
 
 CMakeFiles/clox.dir/src/memory.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/clox.dir/src/memory.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/keruih/workspace/clox/src/memory.c -o CMakeFiles/clox.dir/src/memory.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/akatsuki/workspace/clox/src/memory.c -o CMakeFiles/clox.dir/src/memory.c.s
 
 CMakeFiles/clox.dir/src/value.c.o: CMakeFiles/clox.dir/flags.make
 CMakeFiles/clox.dir/src/value.c.o: src/value.c
 CMakeFiles/clox.dir/src/value.c.o: CMakeFiles/clox.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/keruih/workspace/clox/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/clox.dir/src/value.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/clox.dir/src/value.c.o -MF CMakeFiles/clox.dir/src/value.c.o.d -o CMakeFiles/clox.dir/src/value.c.o -c /Users/keruih/workspace/clox/src/value.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/akatsuki/workspace/clox/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/clox.dir/src/value.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/clox.dir/src/value.c.o -MF CMakeFiles/clox.dir/src/value.c.o.d -o CMakeFiles/clox.dir/src/value.c.o -c /home/akatsuki/workspace/clox/src/value.c
 
 CMakeFiles/clox.dir/src/value.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/clox.dir/src/value.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/keruih/workspace/clox/src/value.c > CMakeFiles/clox.dir/src/value.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/akatsuki/workspace/clox/src/value.c > CMakeFiles/clox.dir/src/value.c.i
 
 CMakeFiles/clox.dir/src/value.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/clox.dir/src/value.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/keruih/workspace/clox/src/value.c -o CMakeFiles/clox.dir/src/value.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/akatsuki/workspace/clox/src/value.c -o CMakeFiles/clox.dir/src/value.c.s
 
 CMakeFiles/clox.dir/src/vm.c.o: CMakeFiles/clox.dir/flags.make
 CMakeFiles/clox.dir/src/vm.c.o: src/vm.c
 CMakeFiles/clox.dir/src/vm.c.o: CMakeFiles/clox.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/keruih/workspace/clox/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/clox.dir/src/vm.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/clox.dir/src/vm.c.o -MF CMakeFiles/clox.dir/src/vm.c.o.d -o CMakeFiles/clox.dir/src/vm.c.o -c /Users/keruih/workspace/clox/src/vm.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/akatsuki/workspace/clox/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/clox.dir/src/vm.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/clox.dir/src/vm.c.o -MF CMakeFiles/clox.dir/src/vm.c.o.d -o CMakeFiles/clox.dir/src/vm.c.o -c /home/akatsuki/workspace/clox/src/vm.c
 
 CMakeFiles/clox.dir/src/vm.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/clox.dir/src/vm.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/keruih/workspace/clox/src/vm.c > CMakeFiles/clox.dir/src/vm.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/akatsuki/workspace/clox/src/vm.c > CMakeFiles/clox.dir/src/vm.c.i
 
 CMakeFiles/clox.dir/src/vm.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/clox.dir/src/vm.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/keruih/workspace/clox/src/vm.c -o CMakeFiles/clox.dir/src/vm.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/akatsuki/workspace/clox/src/vm.c -o CMakeFiles/clox.dir/src/vm.c.s
 
 CMakeFiles/clox.dir/src/scanner.c.o: CMakeFiles/clox.dir/flags.make
 CMakeFiles/clox.dir/src/scanner.c.o: src/scanner.c
 CMakeFiles/clox.dir/src/scanner.c.o: CMakeFiles/clox.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/keruih/workspace/clox/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/clox.dir/src/scanner.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/clox.dir/src/scanner.c.o -MF CMakeFiles/clox.dir/src/scanner.c.o.d -o CMakeFiles/clox.dir/src/scanner.c.o -c /Users/keruih/workspace/clox/src/scanner.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/akatsuki/workspace/clox/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/clox.dir/src/scanner.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/clox.dir/src/scanner.c.o -MF CMakeFiles/clox.dir/src/scanner.c.o.d -o CMakeFiles/clox.dir/src/scanner.c.o -c /home/akatsuki/workspace/clox/src/scanner.c
 
 CMakeFiles/clox.dir/src/scanner.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/clox.dir/src/scanner.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/keruih/workspace/clox/src/scanner.c > CMakeFiles/clox.dir/src/scanner.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/akatsuki/workspace/clox/src/scanner.c > CMakeFiles/clox.dir/src/scanner.c.i
 
 CMakeFiles/clox.dir/src/scanner.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/clox.dir/src/scanner.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/keruih/workspace/clox/src/scanner.c -o CMakeFiles/clox.dir/src/scanner.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/akatsuki/workspace/clox/src/scanner.c -o CMakeFiles/clox.dir/src/scanner.c.s
 
 CMakeFiles/clox.dir/src/compiler.c.o: CMakeFiles/clox.dir/flags.make
 CMakeFiles/clox.dir/src/compiler.c.o: src/compiler.c
 CMakeFiles/clox.dir/src/compiler.c.o: CMakeFiles/clox.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/keruih/workspace/clox/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/clox.dir/src/compiler.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/clox.dir/src/compiler.c.o -MF CMakeFiles/clox.dir/src/compiler.c.o.d -o CMakeFiles/clox.dir/src/compiler.c.o -c /Users/keruih/workspace/clox/src/compiler.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/akatsuki/workspace/clox/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/clox.dir/src/compiler.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/clox.dir/src/compiler.c.o -MF CMakeFiles/clox.dir/src/compiler.c.o.d -o CMakeFiles/clox.dir/src/compiler.c.o -c /home/akatsuki/workspace/clox/src/compiler.c
 
 CMakeFiles/clox.dir/src/compiler.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/clox.dir/src/compiler.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/keruih/workspace/clox/src/compiler.c > CMakeFiles/clox.dir/src/compiler.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/akatsuki/workspace/clox/src/compiler.c > CMakeFiles/clox.dir/src/compiler.c.i
 
 CMakeFiles/clox.dir/src/compiler.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/clox.dir/src/compiler.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/keruih/workspace/clox/src/compiler.c -o CMakeFiles/clox.dir/src/compiler.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/akatsuki/workspace/clox/src/compiler.c -o CMakeFiles/clox.dir/src/compiler.c.s
 
 # Object files for target clox
 clox_OBJECTS = \
@@ -205,7 +205,7 @@ clox: CMakeFiles/clox.dir/src/scanner.c.o
 clox: CMakeFiles/clox.dir/src/compiler.c.o
 clox: CMakeFiles/clox.dir/build.make
 clox: CMakeFiles/clox.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/keruih/workspace/clox/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking C executable clox"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/akatsuki/workspace/clox/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking C executable clox"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/clox.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -217,6 +217,6 @@ CMakeFiles/clox.dir/clean:
 .PHONY : CMakeFiles/clox.dir/clean
 
 CMakeFiles/clox.dir/depend:
-	cd /Users/keruih/workspace/clox && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/keruih/workspace/clox /Users/keruih/workspace/clox /Users/keruih/workspace/clox /Users/keruih/workspace/clox /Users/keruih/workspace/clox/CMakeFiles/clox.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/akatsuki/workspace/clox && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/akatsuki/workspace/clox /home/akatsuki/workspace/clox /home/akatsuki/workspace/clox /home/akatsuki/workspace/clox /home/akatsuki/workspace/clox/CMakeFiles/clox.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/clox.dir/depend
 

@@ -1,3 +1,3 @@
-/Users/keruih/workspace/clox/CMakeFiles/clox.dir
-/Users/keruih/workspace/clox/CMakeFiles/edit_cache.dir
-/Users/keruih/workspace/clox/CMakeFiles/rebuild_cache.dir
+/home/akatsuki/workspace/clox/CMakeFiles/clox.dir
+/home/akatsuki/workspace/clox/CMakeFiles/edit_cache.dir
+/home/akatsuki/workspace/clox/CMakeFiles/rebuild_cache.dir
